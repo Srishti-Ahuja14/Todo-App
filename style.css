@@ -111,3 +111,45 @@ button{
     font-weight: bold;
 
 }
+
+.taskItem{
+    display: flex;
+    background-color: var(--secondaryBackground);
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    list-style: none;
+}
+
+.taskItem img{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.completed p{
+    text-decoration: line-through;
+    color: var(--teal);
+}
